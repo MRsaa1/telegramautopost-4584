@@ -1,4 +1,4 @@
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](#) [![License](https://img.shields.io/badge/License-Proprietary-lightgrey)](#) [![Status](https://img.shields.io/badge/Build-OK-success)](#)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue)](#)](#) [![License](https://img.shields.io/badge/License-Proprietary-lightgrey)](#) [![Status](https://img.shields.io/badge/Build-OK-success)](#)
 
 # telegramautopost-4584
 
