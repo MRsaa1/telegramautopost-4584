@@ -1,3 +1,5 @@
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](#) [![License](https://img.shields.io/badge/License-Proprietary-lightgrey)](#) [![Status](https://img.shields.io/badge/Build-OK-success)](#)
+
 # telegramautopost-4584
 
 Telegram autopost bot: news/digest publishing with caching and retries.
@@ -41,3 +43,28 @@ Never commit `.env`, `*.json` credentials or logs. They are ignored via `.gitign
 
 ## License
 Proprietary. All rights reserved.
+
+## Usage
+
+### Environment (.env)
+Create `.env` with your keys:
+```
+TELEGRAM_BOT_TOKEN=xxxxx
+OPENAI_API_KEY=xxxxx
+OTHER_SECRET=xxxxx
+```
+
+### Run locally
+```
+python main.py
+```
+
+### Run on schedule (cron)
+```
+*/30 * * * *  cd $(pwd) && /usr/bin/python3 main.py >> run.log 2>&1
+```
+
+## Examples
+- Startup without sending: dry-run flag (if supported)
+- Custom channel/topic configuration via env
+- Replit: add secrets in the Secrets panel and click Run
