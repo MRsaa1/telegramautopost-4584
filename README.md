@@ -68,3 +68,13 @@ python main.py
 - Startup without sending: dry-run flag (if supported)
 - Custom channel/topic configuration via env
 - Replit: add secrets in the Secrets panel and click Run
+
+## Screenshots / Output
+
+![Preview](generated-icon.png)
+
+Example run output:
+
+```text
+[*/15] Autopost: 3 new items published (0 duplicates)
+```
